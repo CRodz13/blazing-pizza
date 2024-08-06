@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace BlazingPizza
+﻿namespace BlazingPizza
 {
     public class Order
     {
         public int OrderId { get; set; }
 
-        public string UserId { get; set; }
+        public required string UserId { get; set; }
 
         public DateTime CreatedTime { get; set; }
 
